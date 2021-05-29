@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="loading">Loading, please wait</string>
+    <string name="try_again">OOPS, Please try again later!!</string>
+    <string name="toolbar_title_main">NY Times Most Popular</string>
+    <string name="refresh">Refresh</string>
+</resources>

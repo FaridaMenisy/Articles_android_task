@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvArticleSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="The New York Times " />
+
+    <ImageView
+        android:id="@+id/ivArticle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tvArticleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="Sinead O’Connor Remembers Things Differently" />
+
+    <TextView
+        android:id="@+id/tvArticleDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        tools:text="The mainstream narrative is that a pop star ripped up a photo of the pope on “Saturday Night Live” and derailed her life. What if the opposite were true?" />
+</LinearLayout>

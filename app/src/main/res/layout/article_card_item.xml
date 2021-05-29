@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvArticle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    app:cardCornerRadius="8dp"
+    app:elevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/grey_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.15" />
+
+        <TextView
+            android:id="@+id/tvArticleTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivArrow"
+            app:layout_constraintStart_toEndOf="@+id/ivAvatar"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="RepoNamejdhfhfdfjdfjdsjfjdsjfj" />
+
+        <TextView
+            android:id="@+id/tvArticleAuthor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ivCalender"
+            app:layout_constraintStart_toStartOf="@+id/tvArticleTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvArticleTitle"
+            tools:text="Repo description Repo description Repo description Repo descriptionRepo descriptionRepo descriptionRepo descriptionRepo descriptionRepo descriptssssssion" />
+
+        <TextView
+            android:id="@+id/tvArticleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/ivCalender"
+            app:layout_constraintEnd_toStartOf="@+id/ivArrow"
+            app:layout_constraintStart_toEndOf="@+id/ivCalender"
+            tools:text="10-7-1994" />
+
+        <ImageView
+            android:id="@+id/ivCalender"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/calender"
+            android:padding="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvArticleAuthor"
+            app:layout_constraintDimensionRatio="1"
+            app:layout_constraintEnd_toStartOf="@+id/tvArticleDate"
+            app:layout_constraintStart_toEndOf="@+id/tvArticleAuthor"
+            app:layout_constraintWidth_percent="0.05" />
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.05" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
