@@ -20,7 +20,7 @@ It's a sample project that created with MVVM architecture using jetcpack compone
 
 **Kotlin**
 
-**JetPack Components**
+**JetPack Components** [ViewModel,LiveData,Room]
 
 **Dagger**
 
