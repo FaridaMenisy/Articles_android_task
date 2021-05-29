@@ -14,3 +14,8 @@ Brief: App consists of three screens (master/detail)
 
 
 
+![WhatsApp Image 2021-05-29 at 4 29 42 AM (1)](https://user-images.githubusercontent.com/26609049/120055492-c91fbf00-c036-11eb-9a0e-5635c53fa066.jpeg)
+![WhatsApp Image 2021-05-29 at 4 29 42 AM (2)](https://user-images.githubusercontent.com/26609049/120055497-cc1aaf80-c036-11eb-82cf-cff9d9c7007e.jpeg)
+![WhatsApp Image 2021-05-29 at 4 29 42 AM](https://user-images.githubusercontent.com/26609049/120055502-dd63bc00-c036-11eb-9abf-b5a5cd879a39.jpeg)
+
+
