@@ -1,7 +1,6 @@
 package com.example.myapplication.domain.usecase
 
 import com.example.myapplication.domain.model.ArticleDetials
-import com.example.myapplication.domain.model.ArticlesDataList
 import com.example.myapplication.domain.model.ArticlesModel
 
 object Util {
