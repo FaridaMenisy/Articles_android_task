@@ -9,17 +9,25 @@ Brief: App consists of three screens (master/detail)
        3-Details Screen(displayed upon clicking on each list item)
        
        
-<h2>Technologies and Frameworks</h2> :       
+<h2>Technologies and Frameworks</h2>        
 
-**Kotlin** : Kotlin is an open source programming language for the Java Virtual Machine (JVM).
+**Kotlin**
 
-**JetPack Components** : is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices 
+**JetPack Components**
 
-**Dagger** :  is a compile-time dependency injection framework for Java, Kotlin, and Android.
+**Dagger**
 
-**MVVM** : Model–view–viewmodel is a software architectural pattern. facilitates a separation of development layers into 3 
+**MVVM**
 
-**Clean code Archtiecture** : Clean architecture is a software design paradigm that separates the elements of a design into layers. The main rule of clean architecture is that code dependencies can only come from the outer levels inward. Code on the inner layers can have no knowledge of functions on the outer layers.  ![image](https://user-images.githubusercontent.com/26609049/120055685-fa4cbf00-c037-11eb-9c92-5557403ab272.png)
+**Clean code Archtiecture**
+
+**Unit testing** : Local unit testing using Mockito and Junit was used, as well as Database testing 
+
+                           Destination directoty for unit testing app\src\test
+
+            Destination directory for database testing: app\src\AndoidTest\. as our test class requires context from the application.
+
+![image](https://user-images.githubusercontent.com/26609049/120055685-fa4cbf00-c037-11eb-9c92-5557403ab272.png)
 ![WhatsApp Image 2021-05-29 at 4 29 42 AM (1)](https://user-images.githubusercontent.com/26609049/120055492-c91fbf00-c036-11eb-9a0e-5635c53fa066.jpeg)
 ![WhatsApp Image 2021-05-29 at 4 29 42 AM (2)](https://user-images.githubusercontent.com/26609049/120055497-cc1aaf80-c036-11eb-82cf-cff9d9c7007e.jpeg)
 
